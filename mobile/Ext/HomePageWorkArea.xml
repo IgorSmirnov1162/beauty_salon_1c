@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WorkingAreaTemplate>OneColumn</WorkingAreaTemplate>
+	<Column>
+		<Item>
+			<Form>CommonForm.АутентификацияПользователя</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">false</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">true</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>DataProcessor.ЗаписьНаУслуги.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">true</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Item>
+	</Column>
+</HomePageWorkArea>

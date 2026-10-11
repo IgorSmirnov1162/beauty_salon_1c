@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsVisibility>
+		<Command name="CommonCommand.Выйти">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">true</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ЗаписьКлиента.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">true</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">true</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">true</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Услуги.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">true</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ЗаписьКлиента.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">false</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">false</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">false</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Услуги.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">false</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ЗаписьНаУслуги.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АвторизованныйПользователь">true</xr:Value>
+				<xr:Value name="Role.НеавторизованныйПользователь">false</xr:Value>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+</CommandInterface>
